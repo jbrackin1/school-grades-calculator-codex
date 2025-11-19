@@ -10,9 +10,9 @@ function calculateAverage() {
 
 
     if (average >= 70) {
-        console.log(`Congratulations , ${name} you passed!`);
+        alert(`Congratulations , ${name} you passed!`);
     }
     else{
-        console.log(`Keep practicing ${name}`);
+        alert(`Keep practicing ${name}`);
     }
 }
